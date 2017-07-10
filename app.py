@@ -42,9 +42,18 @@ def processRequest(req):
     return {
         "responses": [
             {
-                "type":"text",
+                "type":"card",
                 "messages": [
-                    "Hello, This is 2nd webhook"
+                    "type": "card",
+                    "title": "2ndWebhook",
+                    "subtitle": "Webhook",
+                    "imageUrl": "https://a.slack-edge.com/ae7f/img/services/outgoing-webhook_512.png",
+                    "buttons": [
+                        {
+                            "title": "2ndWebhook Button"
+                        }
+                    ]
+                    
                 ]
             }
         ]
