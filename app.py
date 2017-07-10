@@ -42,7 +42,6 @@ def processRequest(req):
     return {
         "responses": [
             {
-                "type":"card",
                 "messages": [
                     "type": "card",
                     "title": "2nd Webhook",
