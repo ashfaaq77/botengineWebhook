@@ -42,7 +42,7 @@ def processRequest(req):
     return {
         "responses": [
             {
-                "type": "quickReply",
+                "type": "text",
                 "messages": [
                     "LOLOL"
                 ]
