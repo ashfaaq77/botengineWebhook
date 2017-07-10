@@ -45,12 +45,12 @@ def processRequest(req):
                 "type":"card",
                 "messages": [
                     "type": "card",
-                    "title": "2ndWebhook",
-                    "subtitle": "Webhook",
+                    "title": "2nd Webhook",
+                    "subtitle": "2nd Webhook",
                     "imageUrl": "https://a.slack-edge.com/ae7f/img/services/outgoing-webhook_512.png",
                     "buttons": [
                         {
-                            "title": "2ndWebhook Button"
+                            "title": "2nd Webhook"
                         }
                     ]
                     
