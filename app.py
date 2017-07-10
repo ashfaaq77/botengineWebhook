@@ -44,14 +44,7 @@ def processRequest(req):
             {
                 "type": "quickReply",
                 "messages": [
-                    {
-                        "type": "quickReply",
-                        "title": "Do you like botEngine?",
-                        "replies": [
-                                "Yes",
-                                "No"
-                        ]
-                    }
+                    "LOLOL"
                 ]
             }
         ]
