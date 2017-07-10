@@ -42,17 +42,14 @@ def processRequest(req):
     return {
         "responses": [
             {
-                "type": "card",
+                "type": "quickReply",
                 "messages": [
                     {
-                        "type": "card",
-                        "title": "2nd Webhook",
-                        "subtitle": "2nd Webhook",
-                        "imageUrl": "https://a.slack-edge.com/ae7f/img/services/outgoing-webhook_512.png",
-                        "buttons": [
-                            {
-                                "title": "2nd Webhook"
-                            }
+                        "type": "quickReply",
+                        "title": "Do you like botEngine?",
+                        "replies": [
+                                "Yes",
+                                "No"
                         ]
                     }
                 ]
